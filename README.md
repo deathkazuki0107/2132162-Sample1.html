@@ -1,6 +1,14 @@
 # 2132162-Sample1.html
 kadai-213262-warabikazuki
 
+<HTML>
+
+<HEAD>
+	<meta charset="UTF-8">
+	<title>JavaScriptの基礎</title>
+</HEAD>
+
+<BODY>
     <script type="text/javascript">
         today = new Date();
         document.write(today);
@@ -11,3 +19,8 @@ kadai-213262-warabikazuki
         var image = new Image(128,128); //image オブジェクトの作成
         image.src = "ganba.png"; //imageのソースの指定
         document.body.appendChild(image); //imageをDOM要素に組み込む
+    </script>
+
+</BODY>
+
+</HTML>
